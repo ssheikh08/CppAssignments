@@ -1,0 +1,37 @@
+﻿  Assignment3-2.cpp
+C:\Third Sem\C++\Labs\Assignment3\Assignment3\Assignment3-2.cpp(184,8): warning C4101: 'totalSemGpa': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\utility(190,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Third Sem\C++\Labs\Assignment3\Assignment3\Assignment3-2.cpp(27): message : see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[2],double,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[2],
+              _Other2=double
+          ]
+C:\Third Sem\C++\Labs\Assignment3\Assignment3\Assignment3-2.cpp(26): message : see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[2],double,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[2],
+              _Other2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\tuple(629,76): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\tuple(628): message : see reference to function template instantiation 'std::tuple<float,std::vector<course *,std::allocator<course *>> *> &std::tuple<float,std::vector<course *,std::allocator<course *>> *>::operator =<double,nullptr,0>(std::tuple<double,nullptr> &&) noexcept' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\tuple(630): message : see reference to function template instantiation 'std::tuple<float,std::vector<course *,std::allocator<course *>> *> &std::tuple<float,std::vector<course *,std::allocator<course *>> *>::operator =<double,nullptr,0>(std::tuple<double,nullptr> &&) noexcept' being compiled
+C:\Third Sem\C++\Labs\Assignment3\Assignment3\Assignment3-2.cpp(139): message : see reference to function template instantiation 'std::tuple<int,float,std::vector<course *,std::allocator<course *>> *> &std::tuple<int,float,std::vector<course *,std::allocator<course *>> *>::operator =<int,double,nullptr,0>(std::tuple<int,double,nullptr> &&) noexcept' being compiled
+C:\Third Sem\C++\Labs\Assignment3\Assignment3\Assignment3-2.cpp(139): message : see reference to function template instantiation 'std::tuple<int,float,std::vector<course *,std::allocator<course *>> *> &std::tuple<int,float,std::vector<course *,std::allocator<course *>> *>::operator =<int,double,nullptr,0>(std::tuple<int,double,nullptr> &&) noexcept' being compiled
+  Assignment3.vcxproj -> C:\Third Sem\C++\Labs\Assignment3\Debug\Assignment3.exe

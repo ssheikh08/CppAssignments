@@ -1,0 +1,5 @@
+﻿  as4cpp.cpp
+  Assignment4.cpp
+C:\Third Sem\C++\Labs\Assignment4\Assignment4\Assignment4.cpp(124,10): error C3861: 'assignNode': identifier not found
+C:\Third Sem\C++\Labs\Assignment4\Assignment4\Assignment4.cpp(128,4): error C3861: 'newNode': identifier not found
+  Generating Code...

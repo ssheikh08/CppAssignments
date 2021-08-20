@@ -1,0 +1,105 @@
+﻿  Assignment6.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(1614,14): error C2664: 'bool myCompareClass::operator ()(const std::map<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,std::vector<int *,std::allocator<int *>> *,myCompareClass,std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>> &,const std::map<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,std::vector<int *,std::allocator<int *>> *,myCompareClass,std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>> &) const': cannot convert argument 1 from 'const _Kty' to 'const std::map<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,std::vector<int *,std::allocator<int *>> *,myCompareClass,std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>> &'
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1629,1): message : Reason: cannot convert from 'const _Kty' to 'const std::map<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,std::vector<int *,std::allocator<int *>> *,myCompareClass,std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>>'
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1629,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Third Sem\C++\Labs\Assignment6\Assignment6\Assignment6.cpp(33,7): message : see declaration of 'myCompareClass::operator ()'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(1613): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<const myCompareClass&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Keyty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Pr=const myCompareClass &,
+              _Ty1=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const &,
+              _Ty2=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1102): message : see reference to function template instantiation 'std::_Tree_find_hint_result<std::_Tree_node<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Find_hint<_Key>(std::_Tree_node<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Key=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Keyty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1108): message : see reference to function template instantiation 'std::_Tree_find_hint_result<std::_Tree_node<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Find_hint<_Key>(std::_Tree_node<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,const _Keyty &) const' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Key=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Keyty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1376): message : see reference to function template instantiation 'std::_Tree_node<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace_hint<const _Elem&>(std::_Tree_node<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,const _Elem &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Elem=std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1376): message : see reference to function template instantiation 'std::_Tree_node<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace_hint<const _Elem&>(std::_Tree_node<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,const _Elem &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Elem=std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1381): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<const _Elem*>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Elem=std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,
+              _Iter=const std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1381): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<const _Elem*>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>,
+              _Elem=std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>,
+              _Iter=const std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xtree(1380): message : while compiling class template member function 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>)'
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\map(302): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::pair<std::list<std::set<int *,_Pr,std::allocator<int *>> *,std::allocator<std::set<int *,_Pr,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>)' being compiled
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\map(75): message : see reference to class template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,
+              _Ty=std::vector<int *,std::allocator<int *>> *,
+              _Pr=myCompareClass,
+              _Alloc=std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>
+          ]
+C:\Third Sem\C++\Labs\Assignment6\Assignment6\Assignment6.cpp(36): message : see reference to class template instantiation 'std::map<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *,std::vector<int *,std::allocator<int *>> *,myCompareClass,std::allocator<std::pair<std::list<std::set<int *,myCompareClass,std::allocator<int *>> *,std::allocator<std::set<int *,myCompareClass,std::allocator<int *>> *>> *const ,std::vector<int *,std::allocator<int *>> *>>>' being compiled
